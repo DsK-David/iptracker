@@ -1,0 +1,112 @@
+body{
+    background: #242A38;
+    font-size: 15pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.search-content{
+    height: 11px;
+}
+.ip-search{
+    background: #fff;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10px 0 0 10px ;
+    outline: none;
+
+}
+.bx{
+    color: #fff;
+    background: #111;
+   padding: 17px;
+   border-radius: 0 10px 10px 0;
+   border: 1px solid transparent;
+}
+.ip-res{
+    margin-top:80px;
+    background: #fff;
+    width: 300px;
+    margin-left: 30px;
+    height: 430px;
+    border-radius: 10px;
+    opacity: 0;
+}
+.ip-res label{
+    font-size: 20px;
+    color: #888;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+.ip-res span{
+    font-weight: 900;
+    margin-top: 10px;
+}
+@media (min-width:768px){
+    .ip-search{
+        width: 400px;
+    }
+    .ip-res{
+        margin-left: 150px;
+        width: 450px;
+    }
+   
+}
+@media (min-width:1024px){
+    .ip-search{
+        width: 400px;
+    }
+    .ip-res{
+        margin-left: 280px;
+        width: 450px;
+    }
+   
+}
+@media (min-width:1440px){
+    .ip-search{
+        width: 400px;
+    }
+    .ip-res{
+        margin-left: 480px;
+        width: 450px;
+    }
+  
+}
+@media (min-width:2560px){
+    .ip-search{
+        width: 600px;
+    }
+    .ip-res{
+        margin-left: 945px;
+        width: 600px;
+    }
+}
+@media (min-width:1280px){
+    .ip-search{
+        width: 400px;
+    }
+    .ip-res{
+        margin-left: 400px;
+        width: 450px;
+    }
+    .container{
+        margin-top: 10px;
+    }
+
+}
+@media (max-width:320px){
+    .ip-search{
+        width: 200px;
+    }
+    .ip-res{
+        margin-left: 10px;
+        width: 280px;
+    }
+}
